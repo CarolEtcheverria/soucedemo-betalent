@@ -288,15 +288,8 @@ deverá ser exibida.
 Não foi possível aumentar a quantidade de itens, pois a caixinha onde se encontra a informação não está permitindo a edição. Com isso, não foi possível finalizar a compra com mais de um item do mesmo produto.
 
 **Evidência do Bug:**  
-![Bug Visual User](img/bug5.png)
+![Bug Visual User](img/bug4.png)
 
-
-
-# Plano de Testes - Sauce Demo
-
-**Objetivo:** Garantir a qualidade e a usabilidade do site de e-commerce Sauce Demo, validando cenários funcionais, de navegação, responsividade e usabilidade.
-
----
 
 ## 1.2.4 Cenário - Remoção de Itens do Carrinho
 
