@@ -259,7 +259,7 @@ A mensagem:
 deverá ser exibida.
 
 **Resultado Obtido:**  
-A compra foi finalizada e a mensagem foi exibida corretamente.
+Os produtos foram inseridos com sucesso no carrinho, a compra foi finalizada e a mensagem foi exibida corretamente.
 
 **Evidência do Bug:**  
 N/A
@@ -310,10 +310,11 @@ A mensagem:
 deverá ser exibida.
 
 **Resultado Obtido:**  
-A compra não foi concluída pois na tela de preenchimento de "Checkout: Your Information" não foi possível preencher o 
-campo "last name", quando clicamos para preenher o ponteiro sobe para o campo "first name" automaticamente.
+Na tela de listagem de produtos alguns itens não estão permitindo a seleção para inclusão no carrinho clicando em "Add to cart" conforme evidência abaixo. 
+Para os produtos onde foi possível selecionar para incluir no carrinho, não houve sucesso na conclusão da compra pois na tela de "Checkout" o campo "last name" não permitiu o preenchimento, quando clicamos para preenher o ponteiro sobe para o campo "first name" automaticamente.
 
 **Evidência do Bug:**  
+![Bug Visual User](img/bug11.png)
 ![Bug Visual User](img/bug7.png)
 
 ---
@@ -404,15 +405,139 @@ Não foi possível concluir a compra pois na tela de checkout o botão de "Check
 **Pré-condição:** Estar logado na plataforma com `standard_user`.
 
 **Procedimento:**
-1. Adicione produtos ao carrinho.
-2. Acesse o carrinho.
-3. Clique no ícone de "X" ao lado de um produto para removê-lo.
+Tela de listagem de produtos
+1. Adicione produtos ao carrinho clicando em "Add to cart".
+2. Clique em "Remove".
+Tela de detalhamento do item
+1. Adicione produtos ao carrinho clicando em "Add to cart".
+2. Clique em "Remove".
+Tela de Checkout
+1. Acesse o carrinho.
+2. Clique no ícone de "X" ao lado de um produto para removê-lo.
 
 **Resultado Esperado:**  
 O produto deve ser removido do carrinho.
 
 **Resultado Obtido:**  
-O produto foi removido do carrinho com sucesso.
+Na tela de listagem dos produtos clicando em "Remove" os produtos foram removidos com sucesso. 
+Na tala de detalhamento do item clicando em "Remove" o produto foi removido com sucesso. 
+Na tela de Checkout clicando no icone de remoção os produtos foram removidos com sucesso.
+
+**Evidência do Bug:**  
+N/A
+
+---
+
+### Caso de Teste 1.2.4.2
+
+**Descrição:** Remover um ou mais produtos do carrinho.  
+**Pré-condição:** Estar logado na plataforma com `problem_user`.
+
+**Procedimento:**
+Tela de listagem de produtos
+1. Adicione produtos ao carrinho clicando em "Add to cart".
+2. Clique em "Remove".
+Tela de detalhamento do item
+1. Adicione produtos ao carrinho clicando em "Add to cart".
+2. Clique em "Remove".
+Tela de Checkout
+1. Acesse o carrinho.
+2. Clique no ícone de "X" ao lado de um produto para removê-lo.
+
+**Resultado Esperado:**  
+O produto deve ser removido do carrinho.
+
+**Resultado Obtido:**  
+Na tela de listagem dos produtos clicando em "Remove" o botão não possui nenhuma ação, por isso não foi possível remover os itens. 
+Na tala de detalhamento do item clicando em "Remove" o botão não possui nenhuma ação, por isso o produto foi removido com sucesso. 
+Na tela de Checkout os produtos foram removidos com sucesso.
+
+**Evidência do Bug:**  
+![Bug Visual User](img/bug10.png)
+
+---
+
+### Caso de Teste 1.2.4.3
+
+**Descrição:** Remover um ou mais produtos do carrinho.  
+**Pré-condição:** Estar logado na plataforma com `performance_glitch_user`.
+
+**Procedimento:**
+Tela de listagem de produtos
+1. Adicione produtos ao carrinho clicando em "Add to cart".
+2. Clique em "Remove".
+Tela de detalhamento do item
+1. Adicione produtos ao carrinho clicando em "Add to cart".
+2. Clique em "Remove".
+Tela de Checkout
+1. Acesse o carrinho.
+2. Clique no ícone de "X" ao lado de um produto para removê-lo.
+
+**Resultado Esperado:**  
+O produto deve ser removido do carrinho.
+
+**Resultado Obtido:**  
+Na tela de listagem dos produtos clicando em "Remove" os produtos foram removidos com sucesso. 
+Na tala de detalhamento do item clicando em "Remove" o produto foi removido com sucesso. 
+Na tela de Checkout clicando no icone de remoção os produtos foram removidos com sucesso.
+
+**Evidência do Bug:**  
+N/A
+
+---
+
+### Caso de Teste 1.2.4.4
+
+**Descrição:** Remover um ou mais produtos do carrinho.  
+**Pré-condição:** Estar logado na plataforma com `error_user`.
+
+**Procedimento:**
+Tela de listagem de produtos
+1. Adicione produtos ao carrinho clicando em "Add to cart".
+2. Clique em "Remove".
+Tela de detalhamento do item
+1. Adicione produtos ao carrinho clicando em "Add to cart".
+2. Clique em "Remove".
+Tela de Checkout
+1. Acesse o carrinho.
+2. Clique no ícone de "X" ao lado de um produto para removê-lo.
+
+**Resultado Esperado:**  
+O produto deve ser removido do carrinho.
+
+**Resultado Obtido:**  
+Na tela de listagem dos produtos clicando em "Remove" o botão não possui nenhuma ação, por isso não foi possível remover os itens. 
+Na tala de detalhamento do item clicando em "Remove" o botão não possui nenhuma ação, por isso o produto foi removido com sucesso. 
+Na tela de Checkout clicando no icone de remoção os produtos foram removidos com sucesso.
+
+**Evidência do Bug:**  
+![Bug Visual User](img/bug12.png)
+
+---
+
+### Caso de Teste 1.2.4.5
+
+**Descrição:** Remover um ou mais produtos do carrinho.  
+**Pré-condição:** Estar logado na plataforma com `visual_user`.
+
+**Procedimento:**
+Tela de listagem de produtos
+1. Adicione produtos ao carrinho clicando em "Add to cart".
+2. Clique em "Remove".
+Tela de detalhamento do item
+1. Adicione produtos ao carrinho clicando em "Add to cart".
+2. Clique em "Remove".
+Tela de Checkout
+1. Acesse o carrinho.
+2. Clique no ícone de "X" ao lado de um produto para removê-lo.
+
+**Resultado Esperado:**  
+O produto deve ser removido do carrinho.
+
+**Resultado Obtido:**  
+Na tela de listagem dos produtos clicando em "Remove" os produtos foram removidos com sucesso. 
+Na tala de detalhamento do item clicando em "Remove" o produto foi removido com sucesso. 
+Na tela de Checkout clicando no icone de remoção os produtos foram removidos com sucesso.
 
 **Evidência do Bug:**  
 N/A
