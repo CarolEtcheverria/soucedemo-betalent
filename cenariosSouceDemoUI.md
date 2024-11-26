@@ -361,11 +361,36 @@ A mensagem:
 deverá ser exibida.
 
 **Resultado Obtido:**  
-Foi observado que os itens selecionados na evidencia abaixo, apresentaram problema no momento da seleção para inserir no carrinho. No momento que clicamos em "Add o cart" ele não insere o produto no carrinho, e não apresenta erro em tela.
+Foi observado que os produtos que estão selecionados na evidencia abaixo, apresentaram problema no momento da seleção para inserir no carrinho. No momento que clicamos em "Add o cart" ele não insere o produto no carrinho, e não apresenta erro em tela.
 Os demais produtos não apresentaram erro no momento da inclusão no carrinho e foi possível concluir a compra com sucesso.
 
 **Evidência do Bug:**  
 ![Bug Visual User](img/bug8.png)
+
+---
+
+### Caso de Teste 1.2.3.5
+
+**Descrição:** Inserir um ou mais produtos no carrinho e realizar uma compra com sucesso.  
+**Pré-condição:** Estar logado na plataforma com `visual_user`.
+
+**Procedimento:**
+1. Adicione produtos ao carrinho.
+2. Clique no ícone de carrinho e vá para a página do carrinho.
+3. Clique em "Checkout".
+4. Insira as informações de entrega (nome, endereço, etc.).
+5. Confira todas as informações de pagamento e entrega e finalize a compra.
+
+**Resultado Esperado:**  
+A mensagem:  
+*"Thank you for your order! Your order has been dispatched, and will arrive just as fast as the pony can get there!"*  
+deverá ser exibida.
+
+**Resultado Obtido:**  
+Não foi possível concluir a compra pois na tela de checkout o botão de "Checkout" não aparece para prosseguir com o processo de compra.
+
+**Evidência do Bug:**  
+![Bug Visual User](img/bug9.png)
 
 ---
 
