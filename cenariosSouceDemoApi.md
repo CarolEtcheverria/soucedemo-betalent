@@ -1,16 +1,5 @@
 # Teste da API Restful-Booker
 
-## Sumário
-1. [Introdução](#introdução)  
-2. [Cenários Testados](#cenários-testados)  
-    2.1 [Autenticação](#autenticação)  
-    2.2 [Gestão de Reservas](#gestão-de-reservas)  
-    2.3 [Filtros e Buscas](#filtros-e-buscas)  
-3. [Resultados Obtidos](#resultados-obtidos)  
-4. [Bugs Encontrados](#bugs-encontrados)  
-
----
-
 ## 1. Introdução
 Este documento apresenta os testes realizados na API Restful-Booker, uma plataforma para gestão de reservas de hotel. O objetivo dos testes é validar os principais endpoints e identificar possíveis falhas antes da integração com o front-end.
 
