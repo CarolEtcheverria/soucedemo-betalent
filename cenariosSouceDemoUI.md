@@ -1,4 +1,3 @@
-﻿# soucedemo-betalent
 # Plano de Testes - Sauce Demo
 
 **Objetivo:** Validar as funcionalidades e a experiência de usuário da plataforma de e-commerce Sauce Demo.
