@@ -45,8 +45,7 @@ O usuário deve ter bloqueio de acesso e a mensagem:
 *"Epic sadface: Sorry, this user has been locked out"*.
 
 **Resultado Obtido:**  
-A mensagem:  
-*"Epic sadface: Sorry, this user has been locked out"* é exibida.
+Não foi possível acessar a plataforma e a mensagem:*"Epic sadface: Sorry, this user has been locked out"* é exibida.
 
 **Evidência do Bug:**  
 N/A
@@ -707,7 +706,6 @@ O botão redirecionou para o carrinho, mas a nomenclatura gera desconfiança no 
 Botão "Cancel" não transmite clareza de ação.
 
 
-
 # Sugestões de Melhoria de UX/UI
 
 ## Melhoria 1: Implementar uma tela de cadastro para criação de contas
@@ -798,8 +796,6 @@ Atualmente, o site não oferece essas opções de filtros, o que pode dificultar
 - **Diferenciação competitiva:** Um sistema de filtros eficiente agrega valor ao e-commerce, destacando-o em relação a concorrentes com sistemas de busca menos avançados.
 
 
-
-
 # Riscos Identificados
 
 ## Risco 1: Ausência de filtros de categoria
@@ -842,6 +838,9 @@ A falta de uma funcionalidade que permita visualizar a senha digitada pode levar
 **Solução sugerida:**  
 Implementar um botão ou ícone de "mostrar/ocultar senha" no campo de login, permitindo que o usuário visualize a senha digitada antes de submetê-la. Essa funcionalidade deve estar disponível em todas as interfaces do site, garantindo uma experiência consistente e acessível.
 
+#Pendências
+- Cobertura de testes de filtragem e ordenação com todos os tipos de usuários.
+- Cobertura de testes de navegação entre páginas com todos os tipos de usuários.
 
 **Autor:** Carolina Magalhaes Etcheverria  
 **Data:** 26/11/2024
