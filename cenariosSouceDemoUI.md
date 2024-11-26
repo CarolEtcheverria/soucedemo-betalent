@@ -318,6 +318,31 @@ campo "last name", quando clicamos para preenher o ponteiro sobe para o campo "f
 
 ---
 
+### Caso de Teste 1.2.3.3
+
+**Descrição:** Inserir um ou mais produtos no carrinho e realizar uma compra com sucesso.  
+**Pré-condição:** Estar logado na plataforma com `performance_glitch_user`.
+
+**Procedimento:**
+1. Adicione produtos ao carrinho.
+2. Clique no ícone de carrinho e vá para a página do carrinho.
+3. Clique em "Checkout".
+4. Insira as informações de entrega (nome, endereço, etc.).
+5. Confira todas as informações de pagamento e entrega e finalize a compra.
+
+**Resultado Esperado:**  
+A mensagem:  
+*"Thank you for your order! Your order has been dispatched, and will arrive just as fast as the pony can get there!"*  
+deverá ser exibida.
+
+**Resultado Obtido:**  
+A compra foi concluída com sucesso, porém, foi observado que a plataforma está demorando um tempo acima do normal para responder as ações e navegação entre páginas.
+
+**Evidência do Bug:**  
+N/A
+
+---
+
 ## 1.2.4 Cenário - Remoção de Itens do Carrinho
 
 **Descrição:** Validar a remoção de um ou mais produtos do carrinho com sucesso.
