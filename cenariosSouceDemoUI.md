@@ -343,6 +343,32 @@ N/A
 
 ---
 
+### Caso de Teste 1.2.3.4
+
+**Descrição:** Inserir um ou mais produtos no carrinho e realizar uma compra com sucesso.  
+**Pré-condição:** Estar logado na plataforma com `error_user`.
+
+**Procedimento:**
+1. Adicione produtos ao carrinho.
+2. Clique no ícone de carrinho e vá para a página do carrinho.
+3. Clique em "Checkout".
+4. Insira as informações de entrega (nome, endereço, etc.).
+5. Confira todas as informações de pagamento e entrega e finalize a compra.
+
+**Resultado Esperado:**  
+A mensagem:  
+*"Thank you for your order! Your order has been dispatched, and will arrive just as fast as the pony can get there!"*  
+deverá ser exibida.
+
+**Resultado Obtido:**  
+Foi observado que os itens selecionados na evidencia abaixo, apresentaram problema no momento da seleção para inserir no carrinho. No momento que clicamos em "Add o cart" ele não insere o produto no carrinho, e não apresenta erro em tela.
+Os demais produtos não apresentaram erro no momento da inclusão no carrinho e foi possível concluir a compra com sucesso.
+
+**Evidência do Bug:**  
+![Bug Visual User](img/bug8.png)
+
+---
+
 ## 1.2.4 Cenário - Remoção de Itens do Carrinho
 
 **Descrição:** Validar a remoção de um ou mais produtos do carrinho com sucesso.
