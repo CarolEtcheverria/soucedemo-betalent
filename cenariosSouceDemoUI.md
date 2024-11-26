@@ -704,8 +704,11 @@ O botão redirecionou para o carrinho, mas a nomenclatura gera desconfiança no 
 **Evidência do Bug:**  
 Botão "Cancel" não transmite clareza de ação.
 
+---
 
 # Sugestões de Melhoria de UX/UI
+
+---
 
 ## Melhoria 1: Implementar uma tela de cadastro para criação de contas
 Atualmente, o site não oferece uma opção para que os usuários criem suas próprias contas diretamente. Essa funcionalidade é essencial para um e-commerce, pois permite que novos usuários se cadastrem e comecem a navegar ou realizar compras imediatamente.
@@ -794,8 +797,11 @@ Atualmente, o site não oferece essas opções de filtros, o que pode dificultar
 - **Aumento da conversão:** Facilitar a localização de produtos alinhados às preferências do usuário pode resultar em um maior número de compras realizadas.
 - **Diferenciação competitiva:** Um sistema de filtros eficiente agrega valor ao e-commerce, destacando-o em relação a concorrentes com sistemas de busca menos avançados.
 
+---
 
 # Riscos Identificados
+
+---
 
 ## Risco 1: Ausência de filtros de categoria
 **Descrição:**  
@@ -837,9 +843,13 @@ A falta de uma funcionalidade que permita visualizar a senha digitada pode levar
 **Solução sugerida:**  
 Implementar um botão ou ícone de "mostrar/ocultar senha" no campo de login, permitindo que o usuário visualize a senha digitada antes de submetê-la. Essa funcionalidade deve estar disponível em todas as interfaces do site, garantindo uma experiência consistente e acessível.
 
+---
+
 #Pendências
 - Cobertura de testes de filtragem e ordenação com todos os tipos de usuários.
 - Cobertura de testes de navegação entre páginas com todos os tipos de usuários.
+
+---
 
 **Autor:** Carolina Magalhaes Etcheverria  
 **Data:** 26/11/2024
