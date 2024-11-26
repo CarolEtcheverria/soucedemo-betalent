@@ -708,7 +708,6 @@ Botão "Cancel" não transmite clareza de ação.
 
 # Sugestões de Melhoria de UX/UI
 
----
 
 ## Melhoria 1: Implementar uma tela de cadastro para criação de contas
 Atualmente, o site não oferece uma opção para que os usuários criem suas próprias contas diretamente. Essa funcionalidade é essencial para um e-commerce, pois permite que novos usuários se cadastrem e comecem a navegar ou realizar compras imediatamente.
@@ -801,7 +800,6 @@ Atualmente, o site não oferece essas opções de filtros, o que pode dificultar
 
 # Riscos Identificados
 
----
 
 ## Risco 1: Ausência de filtros de categoria
 **Descrição:**  
