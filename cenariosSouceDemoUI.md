@@ -621,5 +621,8 @@ A falta de uma funcionalidade que permita visualizar a senha digitada pode levar
 **Solução sugerida:**  
 Implementar um botão ou ícone de "mostrar/ocultar senha" no campo de login, permitindo que o usuário visualize a senha digitada antes de submetê-la. Essa funcionalidade deve estar disponível em todas as interfaces do site, garantindo uma experiência consistente e acessível.
 
+Autor: Carolina Magalhaes Etcheverria
+Data: 26/11/2024
+
 
 
