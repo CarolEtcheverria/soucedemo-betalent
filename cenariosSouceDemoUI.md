@@ -290,6 +290,33 @@ Não foi possível aumentar a quantidade de itens, pois a caixinha onde se encon
 **Evidência do Bug:**  
 ![Bug Visual User](img/bug4.png)
 
+---
+
+### Caso de Teste 1.2.3.2
+
+**Descrição:** Inserir um ou mais produtos no carrinho e realizar uma compra com sucesso.  
+**Pré-condição:** Estar logado na plataforma com `problem_user`.
+
+**Procedimento:**
+1. Adicione produtos ao carrinho.
+2. Clique no ícone de carrinho e vá para a página do carrinho.
+3. Clique em "Checkout".
+4. Insira as informações de entrega (nome, endereço, etc.).
+5. Confira todas as informações de pagamento e entrega e finalize a compra.
+
+**Resultado Esperado:**  
+A mensagem:  
+*"Thank you for your order! Your order has been dispatched, and will arrive just as fast as the pony can get there!"*  
+deverá ser exibida.
+
+**Resultado Obtido:**  
+A compra não foi concluída pois na tela de preenchimento de "Checkout: Your Information" não foi possível preencher o 
+campo "last name", quando clicamos para preenher o ponteiro sobe para o campo "first name" automaticamente.
+
+**Evidência do Bug:**  
+![Bug Visual User](img/bug7.png)
+
+---
 
 ## 1.2.4 Cenário - Remoção de Itens do Carrinho
 
