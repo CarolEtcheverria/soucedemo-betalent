@@ -97,7 +97,7 @@ O usuário é redirecionado para a página de produtos. No entanto:
 - Algumas descrições e títulos da listagem de produtos apresentam erro.  
 
 **Evidência do Bug:**  
-N/A
+![Bug Performance](bug3.png)
 
 ---
 
@@ -120,7 +120,7 @@ O usuário é redirecionado para a página de produtos. No entanto:
 - Algumas descrições e títulos da listagem de produtos apresentam erro.  
 
 **Evidência do Bug:**  
-N/A
+![Bug Error User](bug3.png)
 
 ---
 
@@ -145,7 +145,7 @@ O usuário é redirecionado para a página de produtos. No entanto:
 - Outro produto tem o nome e a descrição exibidos incorretamente.  
 
 **Evidência do Bug:**  
-N/A
+![Bug Visual User](bug2.png)
 
 ---
 
@@ -288,7 +288,9 @@ deverá ser exibida.
 Não foi possível aumentar a quantidade de itens, pois a caixinha onde se encontra a informação não está permitindo a edição. Com isso, não foi possível finalizar a compra com mais de um item do mesmo produto.
 
 **Evidência do Bug:**  
-N/A
+![Bug Visual User](bug5.png)
+
+
 
 # Plano de Testes - Sauce Demo
 
@@ -348,8 +350,9 @@ As páginas do menu devem abrir com sucesso, e deve ser possível retornar à Ho
 
 **Evidência do Bug:**  
 - Menu "About" redireciona para outro site sem opção de retorno.  
+![Bug Visual User](bug6.png)
 - "Reset App State" não apresenta funcionalidade.
-
+![Bug Visual User](bug7.png)
 ---
 
 ### Caso de Teste 1.2.5.2
