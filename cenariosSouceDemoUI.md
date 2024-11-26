@@ -73,7 +73,7 @@ O usuário é redirecionado para a página de produtos. No entanto:
 - Todas as descrições dos produtos apresentam erro.  
 
 **Evidência do Bug:**  
-![Bug Problem User](bug1.png)
+![Bug Problem User](img/bug1.png)
 
 ---
 
@@ -97,7 +97,7 @@ O usuário é redirecionado para a página de produtos. No entanto:
 - Algumas descrições e títulos da listagem de produtos apresentam erro.  
 
 **Evidência do Bug:**  
-![Bug Performance](bug3.png)
+![Bug Performance](img/bug2.png)
 
 ---
 
@@ -120,7 +120,7 @@ O usuário é redirecionado para a página de produtos. No entanto:
 - Algumas descrições e títulos da listagem de produtos apresentam erro.  
 
 **Evidência do Bug:**  
-![Bug Error User](bug3.png)
+![Bug Error User](img/bug2.png)
 
 ---
 
@@ -145,7 +145,7 @@ O usuário é redirecionado para a página de produtos. No entanto:
 - Outro produto tem o nome e a descrição exibidos incorretamente.  
 
 **Evidência do Bug:**  
-![Bug Visual User](bug2.png)
+![Bug Visual User](img/bug3.png)
 
 ---
 
@@ -288,7 +288,7 @@ deverá ser exibida.
 Não foi possível aumentar a quantidade de itens, pois a caixinha onde se encontra a informação não está permitindo a edição. Com isso, não foi possível finalizar a compra com mais de um item do mesmo produto.
 
 **Evidência do Bug:**  
-![Bug Visual User](bug5.png)
+![Bug Visual User](img/bug5.png)
 
 
 
@@ -350,9 +350,9 @@ As páginas do menu devem abrir com sucesso, e deve ser possível retornar à Ho
 
 **Evidência do Bug:**  
 - Menu "About" redireciona para outro site sem opção de retorno.  
-![Bug Visual User](bug6.png)
+![Bug Visual User](img/bug5.png)
 - "Reset App State" não apresenta funcionalidade.
-![Bug Visual User](bug7.png)
+![Bug Visual User](img/bug6.png)
 ---
 
 ### Caso de Teste 1.2.5.2
